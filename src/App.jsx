@@ -1,14 +1,10 @@
-import "./App.css";
-import { Provider } from "react-redux";
-import store from "./shop/store";
-import ShoppingCart from "./shop/components/ShoppingCart";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import EKart from "./rdk-shop/Ekart";
 
 function App() {
   return (
     <div className="App">
-      <Provider store={store}>
-        <ShoppingCart />
-      </Provider>
+      <EKart />
     </div>
   );
 }

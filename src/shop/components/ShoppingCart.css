@@ -1,0 +1,32 @@
+.shoppingCart {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.cartbox {
+  border: 5px solid #008CBA;
+  width: 700px;
+  padding: 5%;
+}
+
+h1{
+    padding-bottom: 2%;
+}
+
+button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .addBtn{
+    color: white;
+    background-color: #008CBA;
+    padding: 15px 32px;
+  }
